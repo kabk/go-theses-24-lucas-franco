@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Introspective Atlas of Emotional Iconography</title>
+    <link rel="stylesheet" href="assets/css/_reset.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+  </head>
+  <body>
+
+    <!-- <div class="border"></div>
+    <div class="border_two"></div> -->
+
+     <div id="axis">
+      <img src="/assets/images/axis.png" id="axis img">
+     </div>
+<!-- 
+     <div id="linhaAxis">
+      <img src="/assets/images/linha_axis.png" id="axis img">
+     </div> -->
+
+      <main class="main">
+
+      </main>
+
+
+
+    <!-- <div class="button">
+      <div class="button_text">
+        <p>TOGGLE AXIS</p>
+       </div>
+    </div> -->
+
+    <button type="button" onclick="show()" id="btnID">
+      <div class="button_text">
+        <p>TOGGLE AXIS</p>
+       </div>
+    </button>
+
+    <script>
+      function show() {
+
+          /* Access image by id and change
+          the display property to block*/
+          document.getElementById('axis img')
+                  .style.display = "block";
+                  
+
+          document.getElementById('btnID')
+                  .style.display = "none";
+      }
+
+      
+  </script>
+
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
+</html>
