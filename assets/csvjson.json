@@ -1,0 +1,597 @@
+[
+  {
+    "organization": 50,
+    "state": -90,
+    "collectivity": -20,
+    "objectnbr": "1.jpeg"
+  },
+  {
+    "organization": 90,
+    "state": 20,
+    "collectivity": -50,
+    "objectnbr": "2.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 30,
+    "collectivity": 50,
+    "objectnbr": "3.jpeg"
+  },
+  {
+    "organization": 80,
+    "state": -30,
+    "collectivity": -70,
+    "objectnbr": "4.jpeg"
+  },
+  {
+    "organization": 70,
+    "state": -40,
+    "collectivity": -80,
+    "objectnbr": "5.jpeg"
+  },
+  {
+    "organization": 90,
+    "state": -30,
+    "collectivity": -90,
+    "objectnbr": "6.jpeg"
+  },
+  {
+    "organization": -50,
+    "state": -20,
+    "collectivity": 70,
+    "objectnbr": "7.jpeg"
+  },
+  {
+    "organization": -40,
+    "state": 70,
+    "collectivity": 70,
+    "objectnbr": "8.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": -80,
+    "collectivity": -30,
+    "objectnbr": "9.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": 70,
+    "collectivity": 40,
+    "objectnbr": "10.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": 30,
+    "collectivity": 40,
+    "objectnbr": "11.jpeg"
+  },
+  {
+    "organization": 20,
+    "state": 10,
+    "collectivity": 40,
+    "objectnbr": "12.jpeg"
+  },
+  {
+    "organization": -90,
+    "state": -80,
+    "collectivity": -60,
+    "objectnbr": "13.jpeg"
+  },
+  {
+    "organization": 70,
+    "state": -70,
+    "collectivity": -50,
+    "objectnbr": "14.jpeg"
+  },
+  {
+    "organization": -70,
+    "state": -70,
+    "collectivity": -30,
+    "objectnbr": "15.jpeg"
+  },
+  {
+    "organization": 80,
+    "state": -60,
+    "collectivity": -30,
+    "objectnbr": "16.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": -40,
+    "collectivity": -10,
+    "objectnbr": "17.jpeg"
+  },
+  {
+    "organization": 70,
+    "state": 10,
+    "collectivity": 20,
+    "objectnbr": "18.jpeg"
+  },
+  {
+    "organization": -30,
+    "state": -10,
+    "collectivity": 30,
+    "objectnbr": "19.jpeg"
+  },
+  {
+    "organization": -40,
+    "state": 20,
+    "collectivity": 30,
+    "objectnbr": "20.jpeg"
+  },
+
+  {
+    "organization": -40,
+    "state": 20,
+    "collectivity": 30,
+    "objectnbr": "22.jpeg"
+  },
+  {
+    "organization": 20,
+    "state": 20,
+    "collectivity": 50,
+    "objectnbr": "23.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": 40,
+    "collectivity": 60,
+    "objectnbr": "24.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": 30,
+    "collectivity": -40,
+    "objectnbr": "25.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": 60,
+    "collectivity": 20,
+    "objectnbr": "26.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 30,
+    "collectivity": 30,
+    "objectnbr": "27.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 30,
+    "collectivity": 20,
+    "objectnbr": "28.jpeg"
+  },
+  {
+    "organization": 70,
+    "state": 70,
+    "collectivity": 50,
+    "objectnbr": "29.jpeg"
+  },
+  {
+    "organization": 80,
+    "state": 30,
+    "collectivity": -70,
+    "objectnbr": "30.jpeg"
+  },
+  {
+    "organization": 20,
+    "state": -20,
+    "collectivity": -10,
+    "objectnbr": "31.jpeg"
+  },
+  {
+    "organization": 50,
+    "state": 10,
+    "collectivity": -10,
+    "objectnbr": "32.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": -10,
+    "collectivity": -20,
+    "objectnbr": "33.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 20,
+    "collectivity": 30,
+    "objectnbr": "34.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 10,
+    "collectivity": -60,
+    "objectnbr": "35.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": 70,
+    "collectivity": 60,
+    "objectnbr": "36.jpeg"
+  },
+  {
+    "organization": -30,
+    "state": 80,
+    "collectivity": -80,
+    "objectnbr": "37.jpeg"
+  },
+  {
+    "organization": 70,
+    "state": 10,
+    "collectivity": 30,
+    "objectnbr": "38.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": 10,
+    "collectivity": 30,
+    "objectnbr": "39.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": 10,
+    "collectivity": 30,
+    "objectnbr": "40.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": 20,
+    "collectivity": 30,
+    "objectnbr": "41.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 10,
+    "collectivity": -10,
+    "objectnbr": "42.jpeg"
+  },
+  {
+    "organization": -10,
+    "state": 10,
+    "collectivity": 40,
+    "objectnbr": "43.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": 10,
+    "collectivity": 10,
+    "objectnbr": "44.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": -10,
+    "collectivity": 20,
+    "objectnbr": "45.jpeg"
+  },
+  {
+    "organization": -50,
+    "state": 40,
+    "collectivity": -80,
+    "objectnbr": "46.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": -20,
+    "collectivity": 40,
+    "objectnbr": "47.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": -60,
+    "collectivity": -80,
+    "objectnbr": "48.jpeg"
+  },
+  {
+    "organization": 70,
+    "state": -80,
+    "collectivity": -30,
+    "objectnbr": "49.jpeg"
+  },
+  {
+    "organization": -30,
+    "state": -20,
+    "collectivity": 30,
+    "objectnbr": "50.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": -60,
+    "collectivity": 50,
+    "objectnbr": "51.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": 40,
+    "collectivity": 40,
+    "objectnbr": "52.jpeg"
+  },
+  {
+    "organization": 80,
+    "state": -30,
+    "collectivity": -20,
+    "objectnbr": "53.jpeg"
+  },
+  {
+    "organization": -10,
+    "state": -20,
+    "collectivity": -50,
+    "objectnbr": "54.jpeg"
+  },
+  {
+    "organization": 10,
+    "state": -20,
+    "collectivity": -20,
+    "objectnbr": "55.jpeg"
+  },
+  {
+    "organization": -50,
+    "state": 30,
+    "collectivity": 40,
+    "objectnbr": "56.jpeg"
+  },
+  {
+    "organization": -30,
+    "state": 30,
+    "collectivity": 40,
+    "objectnbr": "57.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": 20,
+    "collectivity": 50,
+    "objectnbr": "58.jpeg"
+  },
+  {
+    "organization": -30,
+    "state": -20,
+    "collectivity": 20,
+    "objectnbr": "59.jpeg"
+  },
+  {
+    "organization": -50,
+    "state": -70,
+    "collectivity": -40,
+    "objectnbr": "60.jpeg"
+  },
+  {
+    "organization": -70,
+    "state": 50,
+    "collectivity": 60,
+    "objectnbr": "61.jpeg"
+  },
+  {
+    "organization": -40,
+    "state": -70,
+    "collectivity": -40,
+    "objectnbr": "62.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": -20,
+    "collectivity": 10,
+    "objectnbr": "63.jpeg"
+  },
+  {
+    "organization": -50,
+    "state": 50,
+    "collectivity": 50,
+    "objectnbr": "64.jpeg"
+  },
+  {
+    "organization": 60,
+    "state": -70,
+    "collectivity": -70,
+    "objectnbr": "65.jpeg"
+  },
+  {
+    "organization": -50,
+    "state": 50,
+    "collectivity": 60,
+    "objectnbr": "66.jpeg"
+  },
+  {
+    "organization": -30,
+    "state": 40,
+    "collectivity": 50,
+    "objectnbr": "67.jpeg"
+  },
+  {
+    "organization": -80,
+    "state": -60,
+    "collectivity": -20,
+    "objectnbr": "68.jpeg"
+  },
+  {
+    "organization": -40,
+    "state": -20,
+    "collectivity": -20,
+    "objectnbr": "69.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": -20,
+    "collectivity": -60,
+    "objectnbr": "70.jpeg"
+  },
+  {
+    "organization": -20,
+    "state": -60,
+    "collectivity": -50,
+    "objectnbr": "71.jpeg"
+  },
+  {
+    "organization": 40,
+    "state": 20,
+    "collectivity": 30,
+    "objectnbr": "72.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": -50,
+    "collectivity": -50,
+    "objectnbr": "73.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "74.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 20,
+    "objectnbr": "75.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "76.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": -20,
+    "collectivity": 0,
+    "objectnbr": "77.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": -20,
+    "collectivity": 0,
+    "objectnbr": "78.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 30,
+    "objectnbr": "79.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "80.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "81.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "82.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 0,
+    "collectivity": 10,
+    "objectnbr": "83.jpeg"
+  },
+  {
+    "organization": 20,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "84.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "85.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "86.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "87.jpeg"
+  },
+  {
+    "organization": 20,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "88.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "89.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "90.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "91.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "92.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "93.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": 0,
+    "collectivity": 10,
+    "objectnbr": "94.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "95.jpeg"
+  },
+  {
+    "organization": 10,
+    "state": 0,
+    "collectivity": 30,
+    "objectnbr": "96.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "97.jpeg"
+  },
+  {
+    "organization": 0,
+    "state": 0,
+    "collectivity": 0,
+    "objectnbr": "98.jpeg"
+  },
+  {
+    "organization": 10,
+    "state": -10,
+    "collectivity": -30,
+    "objectnbr": "99.jpeg"
+  },
+  {
+    "organization": 30,
+    "state": -10,
+    "collectivity": 30,
+    "objectnbr": "100.jpeg"
+  }
+]
