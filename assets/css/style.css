@@ -14,46 +14,20 @@
 }
 
 
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.box {
-  position: sticky;
-  display: block;
-  margin-top:0px;
-  top:calc(0px - 220vh);
-  background: white;
-  height:350vh;
-  padding:30px;
+* {
   box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
 }
 
-.content{
-  position: relative;
-  display: block;
-  width:100%;
-  height:auto;
-  /* background-color:rgb(255, 255, 255); */
-}
-.text{
-
-    position: relative;
-    width: 70%;
-    height: auto;
-    margin: 0 auto; /* Center the content horizontally */
-    text-align: justify; /* Center the text inside */
-  
+html, body {
+  margin:0;
+  padding:0;
 }
 
-.credits {
 
-  margin-left: 10%;
-  
-}
+
+
+
+
 
 .intro {
 margin-left: 10%;
@@ -72,33 +46,81 @@ text-align: left;
   text-align: justify;
 }
 
-h1 {
+.title {
 
   font: serif;
   font-weight: lighter;
   text-align: center;
+  font-size: calc(var(--font-size)*2);
+
+}
+
+.subtitle {
+  font: serif;
+  font-weight: lighter;
+  text-align: center;
   font-size: calc(var(--font-size)*1.5);
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-bottom: 5%;
 }
 
 p{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin:0;
   font-size: var(--font-size);
   text-align: justify;
   }
   
 
-#box1 {
+  .boxone {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-top:0px;
 
-}
+    
+  }
+
+  .opening {
+    position: sticky;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    margin: 0 auto; /* Center the content horizontally */
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 18%;
+    padding-top: 14%;
+  
+  }
+
+  .chapter {
+
+padding: 10%;
+padding-top: 8%;
+    position: relative;
+    height: 100%;
+    height:auto;
+    width: 100%;
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: justify; /* Center the text inside */
+    z-index: 2;
+    background-color: rgb(214, 214, 214);
+  }
+
+
+
+
+
+  
+
+
+
 
 #box2 {
-z-index:1;
+z-index:3;
+/* top:calc(0px - 100vh); */
+height:100vh;
 background:rgb(189, 189, 189);
 }
 #box3 {
-  z-index:2;
+  z-index:4;
   /* background:rgb(192, 192, 192); */
 }
