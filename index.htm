@@ -7,17 +7,22 @@
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link rel="stylesheet" href="assets/css/style.css?ver=1.0">
 	<link href="styles.css">
-	<title>Scrolling Boxes</title>
+	<title>WHY IS WALL STREET INSCRIBED IN GOLD AND THE BLACK PANTHERS PRINTED IN XEROX?</title>
 </head>
 
 <body>
 
 
-	<div class="boxone">
-		
+
+	<div class="box">
+
+		<div class="landing_page">
+			<p class="font_landing">WHY IS WALL STREET INSCRIBED IN GOLD AND THE BLACK PANTHERS PRINTED IN XEROX?</p>
+		</div>
+
 		<div class="opening">
 
-			<p class="subtitle">ON ONE SIDE:</p>
+			<p class="title" id="sub">ON ONE SIDE:</p>
 			<p class="title">“DISEMBOWELING OUR MONUMENTS, or <em>The Carved Ones.”</em> </p>
 
 		</div>
@@ -26,46 +31,68 @@
 		<div class="chapter">
 
 
-			<h2 class="intro">· Monuments with a capital "M"</h2>
+			<h2 class="intro">Monuments with a capital "M"</h2>
 
-			<p>
+			<p class="chapterone">
 
-				In a way, stone is one of the only materials that has served as medium for the whole of our history.
-				Stone inscriptions are the traces of a history past. They are the mark that ancestral civilizations
-				have
-				left in the space we inhabit for the time being, and will inevitably leave marked with our ruins for
-				the
-				future.
+				The world began with fossils, though they were not fossils at the time. Now we study them as remnants of
+				a distant history, but once they were living breathing organisms. Now incapsulated in rock, how much
+				truth can we distil from stone?
 
 			</p>
 
-			<p>
-				All is fossils.
+			<p class="chapterone">
+
+				Stone has served humans as a medium for all our history. Marks in stone, inscriptions, frescoes and now
+				monuments are all traces of our existence here. They are the marks ancestral civilizations have left
+				behind in the spaces we inhabit, and they will be the marks we inevitably leave for the next ones to
+				come. A sense of cyclicality and stratification imbues our history in rich juxtapositions of past and
+				present—what was kept and what is now to be decided.
+
+
+			</p>
+
+			<p class="chapterone">
+				All to be had, in the end, are fossils.
+			
 			</p>
 
 
-			<p>
-				SENATVS·POPVLVS·QVE·ROMANVS IMP·CAESARI·DIVI·NERVAE·F·NERVAE TRAIANO·AVG·GERM·DACICO·PONTIF
-				MAXIMO·TRIB·POT·XVII·IMP·VI·COS·VI·P·P AD·DECLARANDVM·QVANTAE·ALTITVDINIS
-				MONS·ET·LOCVS·TANT[IS·OPER][b]IBVS·SIT·EGESTVS2
+			<p class="trajan">
+			<hr>
+				<img id="1" class="figure" src="assets/images/trajan.jpeg">
+			</p>
+			<p class="trajan">
+				SENATVS · POPVLVS · QVE · ROMANVS
 
 			</p>
-			<p>
+			<p class="trajan">
+				IMP · CAESARI · DIVI · NERVAE · F · NERVAE
 
-				This is a transcription of the Trajan column, built after the Roman emperor Trajan wiped a whole
-				nation
-				in the Dacian wars. You might not be able to decipher this inscription, but it does seem that its
-				content holds some intrinsic importance, even some power.3
+			</p>
+			<p class="trajan">
+				TRAIANO · AVG · GERM · DACICO · PONTIF
+			</p>
+			<p class="trajan">
+				MAXIMO · TRIB · POT · XVII · IMP · VI · COS · VI · P · P
+			</p>
+			<p class="trajan">
+				AD · DECLARANDVM · QVANTAE · ALTITVDINIS
+			</p>
+			<p class="trajan">
+				MONS · ET · LOCVS · TANT[ ]IBVS · SIT · EGESTVS </p>
 
-				It could be said that they are the fossils of our past—inlaid in those pieces centuries of history
-				that
-				stand and withstand time, war, and paradigm shifts galore. Differently from fossils though, the
-				marks we
-				leave are not the product of chance, rather a deliberate act of forced remembrance. These
-				inscriptions
-				are the names and stories of the people that were chosen to be seen as our history—and somebody had
-				to
-				be the one to choose.
+			<p class="trajan" id="trajan_figure">
+				<span id="1" class="figurelink">[Figure 1] </span>
+			</p>
+
+			<p class="chapterone">
+
+				This is a transcription of the Trajan column, built after the Roman emperor Traianus wiped a whole
+				population in the Dacian wars, in what was considered a heroic victory for the empire. Even without
+				being able to understand its content, still, this inscription seems to radiate a sense of importance, an
+				intrinsic power—in the dignity of its Latin or in the capitalization of its letters, lies a feeling of
+				monumentality.
 
 			</p>
 
@@ -188,7 +215,29 @@
 	<link rel="stylesheet" href="/styles.css">
 	<script src="/scroll.js"></script> -->
 
+	<script>
+		// Select the elements
+		var figureLinks = document.querySelectorAll(".figurelink");
+		var figures = document.querySelectorAll(".figure");
 
+		// Iterate over each figure link
+		figureLinks.forEach(function (triggerElement, i) {
+
+			//   var figureId = triggerElement.id.replace("figurelink", ""); // Get corresponding figure id
+			//   var originalElement = document.getElementById("figure" + figureId);
+
+			var fig = figures[i]
+			// Add event listener for hover
+			triggerElement.addEventListener("mouseover", function () {
+				fig.classList.add("hovered");
+			});
+
+			// Remove class when mouse leaves
+			triggerElement.addEventListener("mouseout", function () {
+				fig.classList.remove("hovered");
+			});
+		});
+	</script>
 
 </body>
 
