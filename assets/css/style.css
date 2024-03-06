@@ -25,6 +25,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--color-light);
+
 }
 
 ::-webkit-scrollbar {
@@ -90,6 +91,8 @@ p {
   margin-bottom: 3%;
 }
 
+
+
 #caption {
   margin-top: 1%;
   margin-bottom: 0;
@@ -147,7 +150,7 @@ img {
   transition: all 0.5s ease-in-out;
   border: 0.3rem double;
   border-color: var(--color-light);
-  padding: 1%;
+  /* padding: 1%; */
 }
 
 #caption_opening {
@@ -265,11 +268,13 @@ background-color: var(--color-medium);
 
 #manual {
   background-color: var(--color-medium);
-  max-height: calc(100vh - 10px); /* Subtract padding-bottom from max-height */
+height: auto;
   padding-bottom: 10px;
   overflow-y: hidden;
   padding: 2% 5% 3% 5%;
     display: flex; /* Use flexbox */
+
+  position: relative;
 }
 
 #intro_manual{
@@ -360,4 +365,61 @@ margin-bottom: 1%;
   padding-right: 22%;
   padding-left: 22%;
   background-color: var(--color-light);
+}
+
+#chaptertwo {
+
+  padding-left: 26%;
+  padding-right: 26%;
+}
+
+#chaptertwo_paragraph {
+
+  text-indent: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.7rem;
+  font-size: calc(var(--font-size)*0.85);
+}
+
+#chaptertwo_paragraph_first {
+
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.7rem;
+  font-size: calc(var(--font-size)*0.8);
+}
+
+#inscribed {
+
+position: sticky;
+
+background-color: var(--color-light);
+padding-top: 3%;
+}
+
+#chaptertwo_opening {
+padding-left: 18%;
+padding-right: 18%;
+padding-top: 3%;
+
+}
+
+#caption_opening_black{
+
+margin-top: 1%;
+margin-bottom: 0;
+font-size: calc(var(--font-size)/1.2);
+margin-left: 10%;
+margin-right: 10%;
+text-align: center;
+color: var(--color-dark);
+}
+
+#text_conclusion {
+
+  color: var(--color-light);
+
+  text-align: justify;
 }
