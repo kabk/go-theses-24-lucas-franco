@@ -106,16 +106,6 @@ p {
 
 
 
-#caption {
-  margin-top: 1%;
-  margin-bottom: 0;
-  font-size: calc(var(--font-size)/1.5);
-  margin-left: 13%;
-  margin-right: 13%;
-  text-align: center;
-}
-
-
 img {
   display: block;
   margin: 0 auto;
@@ -127,20 +117,59 @@ img {
   z-index: -1;
   transition: all 1s ease;
 }
+.caption {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+  width: 20%;
+  background-color: rgb(255, 173, 210);
+  color: var(--color-dark);
+  text-align: center;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none; /* Ensure that the caption doesn't interfere with clicks */
+  transition: opacity 0.5s ease;
+  z-index: 3;
+
+}
+
+#caption_chaptertwo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: calc(var(--font-size) / 1.5);
+
+  text-align: center;
+
+}
+
+#caption {
+
+  margin-top: 1%;
+  margin-bottom: 0px;
+  font-size: calc(var(--font-size) / 1.5);
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+}
 
 .figurelink {
   cursor: pointer;
-  font-weight: bold;
+
   font-size: 60%;
-  vertical-align: super;
-  box-shadow: 0px 0px 0px 15px rgb(255, 173, 210) inset;
+  vertical-align:text-top;
+  box-shadow: rgb(255, 173, 210) 0px 0px 0px 15px inset;
   color: var(--color-dark);
 }
-
 .hovered {
   z-index: 1;
   opacity: 1;
   filter: blur(0);
+}
+.hovered .caption {
+  opacity: 1;
+  z-index: 3;
+
 }
 
 .image_visible {
