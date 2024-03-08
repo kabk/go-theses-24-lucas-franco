@@ -123,7 +123,7 @@ img {
   bottom: 0;
   left: 0;
   width: 20%;
-  background-color: rgb(255, 173, 210);
+  background-color: var(--color-medium);
   color: var(--color-dark);
   text-align: center;
   padding: 1rem;
@@ -133,6 +133,7 @@ img {
   z-index: 3;
 
 }
+
 
 #caption_chaptertwo {
   margin-top: 5%;
@@ -158,7 +159,7 @@ img {
 
   font-size: 60%;
   vertical-align:text-top;
-  box-shadow: rgb(255, 173, 210) 0px 0px 0px 15px inset;
+  box-shadow: rgb(196, 196, 196) 0px 0px 0px 15px inset;
   color: var(--color-dark);
 }
 .hovered {
@@ -559,3 +560,89 @@ padding: 0;
   
 
 }
+
+/* WEBSITE MEDIA QUERIES */
+
+/* styles for 'mobile', screen sizes up to 779px, should covers 'mobile' and 'tablet' */
+/* style this one first and then use the subsequent ones in a cascading way (from general to specific) */
+
+@media (max-width: 779px) {
+
+  /* your 'mobile' overriding css properties here */
+
+  :root {
+
+    --font-size: 16px;
+    /* Margin value */
+
+  }
+
+  .chapter {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    /* Center the text inside */
+
+    padding-right: 5%;
+    padding-left: 5%;
+
+  }
+
+  .image_visible {
+
+    width: 100%;
+
+}
+
+#caption {
+
+
+  font-size: calc(var(--font-size)*0.8);
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+  /* utility classes, mobile */
+
+  .desktop-only{
+    display:none;
+  }
+
+  .mobile-only{
+    display:block;
+  }
+
+}
+
+
+
+/* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
+
+@media (max-width: 339px) {
+
+  /* your overriding css properties here */
+
+}
+
+
+
+/* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
+
+@media (max-width: 779px) and (orientation: landscape) {
+
+   /* your overriding css properties here */
+
+}
+
+
+
+/* use this query to apply style for 'small' desktop screens */
+
+@media (min-width: 780px) and (max-width: 992px) {
+
+  /* your overriding css properties here */
+
+}
+
+
