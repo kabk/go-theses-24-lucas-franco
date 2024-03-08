@@ -474,6 +474,13 @@ img {
 
 }
 
+#conclusion_opening {
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 3%;
+
+}
+
 #caption_opening_black {
 
   margin-top: 1%;
@@ -649,6 +656,72 @@ padding: 0;
   line-height: 1.3rem;
   font-size: calc(var(--font-size)* 1);
 
+}
+
+img {
+
+  width: 70%;
+
+}
+
+.caption {
+  position: fixed;
+
+
+  width: 100%;
+  background-color: var(--color-medium);
+  color: var(--color-dark);
+  text-align: center;
+  padding: 1rem;
+  opacity: 0;
+  pointer-events: none; /* Ensure that the caption doesn't interfere with clicks */
+  transition: opacity 0.5s ease;
+  z-index: 3;
+  
+
+}
+
+#caption_chaptertwo {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: calc(var(--font-size)*0.8);
+
+  text-align: center;
+
+}
+
+#conclusion_opening {
+  position: relative;
+  height: auto;
+  padding-top: 10%;
+padding-bottom: 10%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+#thank {
+
+  position: relative;
+  height: auto;
+  padding-top: 10%;
+padding-bottom: 10%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+#thanks_paragraph {
+  line-height: 1.3rem;
+  font-size: calc(var(--font-size)* 1);
+}
+
+#bibliography {
+
+  position: relative;
+  height: auto;
+  padding-top: 10%;
+padding-bottom: 10%;
+padding-left: 5%;
+padding-right: 5%;
 }
 
   /* utility classes, mobile */
