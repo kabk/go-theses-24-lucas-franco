@@ -603,6 +603,54 @@ padding: 0;
 
 }
 
+.conversation_wrapper {
+  height: 60vh;
+  width: 100%;
+
+}
+
+
+.manual_container {
+  display:block;
+
+}
+
+.manual_column {
+
+  
+  margin-bottom: 5%;
+}
+
+#manual {
+  background-color: var(--color-medium);
+  height: auto;
+  padding-bottom: 10px;
+  overflow-y: hidden;
+  padding: 2% 5% 3% 5%;
+  display: flex;
+  /* Use flexbox */
+
+  position: relative;
+}
+
+#chaptertwo {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#chaptertwo_paragraph {
+
+  line-height: 1.3rem;
+  font-size: calc(var(--font-size)* 1);
+}
+
+#chaptertwo_paragraph_first {
+
+  line-height: 1.3rem;
+  font-size: calc(var(--font-size)* 1);
+
+}
+
   /* utility classes, mobile */
 
   .desktop-only{
