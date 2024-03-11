@@ -117,6 +117,7 @@ img {
   z-index: -1;
   transition: all 1s ease;
 }
+
 .caption {
   position: fixed;
 
@@ -129,7 +130,8 @@ img {
   text-align: center;
   padding: 1rem;
   opacity: 0;
-  pointer-events: none; /* Ensure that the caption doesn't interfere with clicks */
+  pointer-events: none;
+  /* Ensure that the caption doesn't interfere with clicks */
   transition: opacity 0.5s ease;
   z-index: 3;
 
@@ -160,15 +162,17 @@ img {
   cursor: pointer;
 
   font-size: 60%;
-  vertical-align:text-top;
+  vertical-align: text-top;
   box-shadow: var(--color-text-link) 0px 0px 0px 15px inset;
   color: var(--color-dark);
 }
+
 .hovered {
   z-index: 1;
   opacity: 1;
   filter: blur(0);
 }
+
 .hovered .caption {
   opacity: 1;
   z-index: 3;
@@ -480,7 +484,7 @@ img {
   padding-left: 18%;
   padding-right: 18%;
   padding-top: 3%;
-position: sticky;
+  position: sticky;
 }
 
 #caption_opening_black {
@@ -509,7 +513,7 @@ position: sticky;
 }
 
 #thank {
-position: sticky;
+  position: sticky;
   background-color: var(--color-medium);
   padding-left: 18%;
   padding-right: 18%;
@@ -536,12 +540,12 @@ position: sticky;
   font-size: calc(var(--font-size)*1.3);
   text-align-last: center;
   line-height: 2.5rem;
-  
+
 }
 
 #david_column {
-border: 0;
-padding: 0;
+  border: 0;
+  padding: 0;
 }
 
 #david_container {
@@ -566,7 +570,7 @@ padding: 0;
   margin-left: 16%;
   margin-right: 16%;
   text-align: center;
-  
+
 
 }
 
@@ -601,157 +605,158 @@ padding: 0;
 
     width: 100%;
 
-}
+  }
 
-.landing_page {
+  .landing_page {
 
-  padding: 5%;
-  padding-top: 13%;
-  top: 20vh;
+    padding: 5%;
+    padding-top: 13%;
+    top: 20vh;
 
-}
+  }
 
-.font_landing {
-  font-size: calc((var(--font-size)* 2));
-  color: var(--color-dark);
-  text-align: center;
-}
+  .font_landing {
+    font-size: calc((var(--font-size)* 2));
+    color: var(--color-dark);
+    text-align: center;
+  }
 
-#caption {
-
-
-  font-size: calc(var(--font-size)*0.8);
-  margin-left: 10%;
-  margin-right: 10%;
-
-}
-
-.conversation_wrapper {
-  height: 60vh;
-  width: 100%;
-
-}
+  #caption {
 
 
-.manual_container {
-  display:block;
+    font-size: calc(var(--font-size)*0.8);
+    margin-left: 10%;
+    margin-right: 10%;
 
-}
+  }
 
-.manual_column {
+  .conversation_wrapper {
+    height: 60vh;
+    width: 100%;
 
-  
-  margin-bottom: 5%;
-}
-
-#manual {
-  background-color: var(--color-medium);
-  height: auto;
-  padding-bottom: 10px;
-  overflow-y: hidden;
-  padding: 2% 5% 3% 5%;
-  display: flex;
-  /* Use flexbox */
-
-  position: relative;
-}
-
-#chaptertwo {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-#chaptertwo_paragraph {
-
-  line-height: 1.3rem;
-  font-size: calc(var(--font-size)* 1);
-}
-
-#chaptertwo_paragraph_first {
-
-  line-height: 1.3rem;
-  font-size: calc(var(--font-size)* 1);
-
-}
-
-img {
-
-  width: 70%;
-
-}
-
-.caption {
-  position: fixed;
+  }
 
 
-  width: 100%;
-  background-color: var(--color-text-link);
-  color: var(--color-dark);
-  text-align: center;
-  padding: 1rem;
-  opacity: 0;
-  pointer-events: none; /* Ensure that the caption doesn't interfere with clicks */
-  transition: opacity 0.5s ease;
-  z-index: 3;
-  
+  .manual_container {
+    display: block;
 
-}
+  }
 
-#caption_chaptertwo {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-size: calc(var(--font-size)*0.8);
+  .manual_column {
 
-  text-align: center;
 
-}
+    margin-bottom: 5%;
+  }
 
-#conclusion_opening {
-  position: relative;
-  height: auto;
-  padding-top: 10%;
-padding-bottom: 10%;
-padding-left: 5%;
-padding-right: 5%;
-}
+  #manual {
+    background-color: var(--color-medium);
+    height: auto;
+    padding-bottom: 10px;
+    overflow-y: hidden;
+    padding: 2% 5% 3% 5%;
+    display: flex;
+    /* Use flexbox */
 
-#thank {
+    position: relative;
+  }
 
-  position: relative;
-  height: auto;
-  padding-top: 10%;
-padding-bottom: 10%;
-padding-left: 5%;
-padding-right: 5%;
-}
+  #chaptertwo {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-#thanks_paragraph {
-  line-height: 1.3rem;
-  font-size: calc(var(--font-size)* 1);
-}
+  #chaptertwo_paragraph {
 
-#bibliography {
+    line-height: 1.3rem;
+    font-size: calc(var(--font-size)* 1);
+  }
 
-  position: relative;
-  height: auto;
-  padding-top: 10%;
-padding-bottom: 10%;
-padding-left: 5%;
-padding-right: 5%;
-}
+  #chaptertwo_paragraph_first {
 
-#david_container {
-  width: 95%;
-  margin-top: 5%;
+    line-height: 1.3rem;
+    font-size: calc(var(--font-size)* 1);
 
-  display:block;
+  }
 
-}
+  img {
 
-#david_column {
-  border: 0;
-  padding: 0;
-  width: 100%;
+    width: 70%;
+
+  }
+
+  .caption {
+    position: fixed;
+
+
+    width: 100%;
+    background-color: var(--color-text-link);
+    color: var(--color-dark);
+    text-align: center;
+    padding: 1rem;
+    opacity: 0;
+    pointer-events: none;
+    /* Ensure that the caption doesn't interfere with clicks */
+    transition: opacity 0.5s ease;
+    z-index: 3;
+
+
+  }
+
+  #caption_chaptertwo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: calc(var(--font-size)*0.8);
+
+    text-align: center;
+
+  }
+
+  #conclusion_opening {
+    position: relative;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #thank {
+
+    position: relative;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #thanks_paragraph {
+    line-height: 1.3rem;
+    font-size: calc(var(--font-size)* 1);
+  }
+
+  #bibliography {
+
+    position: relative;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #david_container {
+    width: 95%;
+    margin-top: 5%;
+
+    display: block;
+
+  }
+
+  #david_column {
+    border: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .david_paragraph {
@@ -760,64 +765,63 @@ padding-right: 5%;
     margin-left: 0%;
     margin-right: 0%;
     text-align: center;
-    }
+  }
+
   /* utility classes, mobile */
 
-  .desktop-only{
-    display:none;
+  .desktop-only {
+    display: none;
   }
 
-  .mobile-only{
-    display:block;
+  .mobile-only {
+    display: block;
   }
 
-}
-
-.opening {
 
 
-
-  padding: 5%;
-  padding-top: 40%;
-
-
-  text-align: justify;
-}
-
-.manual_intro_paragraph {
-
-  margin-left: 5%;
-  margin-right: 5%;
-
-}
-
-
-/* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
-
-@media (max-width: 339px) {
-
-  /* your overriding css properties here */
-
-}
+  .opening {
 
 
 
-/* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
-
-@media (max-width: 779px) and (orientation: landscape) {
-
-   /* your overriding css properties here */
-
-}
+    padding: 5%;
+    padding-top: 40%;
 
 
+    text-align: justify;
+  }
 
-/* use this query to apply style for 'small' desktop screens */
+  .manual_intro_paragraph {
 
-@media (min-width: 780px) and (max-width: 992px) {
+    margin-left: 5%;
+    margin-right: 5%;
 
-  /* your overriding css properties here */
-
-}
+  }
 
 
+  /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
+
+  @media (max-width: 339px) {
+
+    /* your overriding css properties here */
+
+  }
+
+
+
+  /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
+
+  @media (max-width: 779px) and (orientation: landscape) {
+
+    /* your overriding css properties here */
+
+  }
+
+
+
+  /* use this query to apply style for 'small' desktop screens */
+
+  @media (min-width: 780px) and (max-width: 992px) {
+
+    /* your overriding css properties here */
+
+  }
