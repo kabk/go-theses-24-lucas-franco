@@ -302,6 +302,23 @@ img {
 }
 
 
+.chapter {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: sticky;
+  height: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  /* Center the content horizontally */
+  text-align: justify;
+  /* Center the text inside */
+  z-index: 3;
+  padding-right: 22%;
+  padding-left: 22%;
+  background-color: var(--color-light);
+}
+
 .conversation_wrapper {
   height: 70vh;
   width: 80%;
@@ -418,23 +435,6 @@ img {
 
 
 
-.chapter {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  position: relative;
-  height: 100%;
-  height: auto;
-  width: 100%;
-  margin: 0 auto;
-  /* Center the content horizontally */
-  text-align: justify;
-  /* Center the text inside */
-  z-index: 3;
-  padding-right: 22%;
-  padding-left: 22%;
-  background-color: var(--color-light);
-}
-
 #chaptertwo {
 
   padding-left: 26%;
@@ -478,13 +478,13 @@ img {
   padding-left: 18%;
   padding-right: 18%;
   padding-top: 3%;
-
+position: sticky;
 }
 
 #caption_opening_black {
 
   margin-top: 1%;
-  margin-bottom: 0;
+  margin-bottom: 3%;
   font-size: calc(var(--font-size)/1.2);
   margin-left: 10%;
   margin-right: 10%;
@@ -507,7 +507,7 @@ img {
 }
 
 #thank {
-
+position: sticky;
   background-color: var(--color-medium);
   padding-left: 18%;
   padding-right: 18%;
@@ -724,6 +724,27 @@ padding-left: 5%;
 padding-right: 5%;
 }
 
+#david_container {
+  width: 95%;
+  margin-top: 5%;
+
+  display:block;
+
+}
+
+#david_column {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  }
+
+  .david_paragraph {
+    font-size: calc(var(--font-size)*0.8);
+    margin-top: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    }
   /* utility classes, mobile */
 
   .desktop-only{
