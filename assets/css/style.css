@@ -685,7 +685,7 @@ img {
 
 
   width: 100%;
-  background-color: var(--color-medium);
+  background-color: var(--color-text-link);
   color: var(--color-dark);
   text-align: center;
   padding: 1rem;
@@ -773,6 +773,23 @@ padding-right: 5%;
 
 }
 
+.opening {
+
+
+
+  padding: 5%;
+  padding-top: 40%;
+
+
+  text-align: justify;
+}
+
+.manual_intro_paragraph {
+
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
 
 
 /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
