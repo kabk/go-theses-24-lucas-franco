@@ -626,7 +626,7 @@ text-align: justify;
     font-size: calc((var(--font-size)* 3.5));
     color: var(--color-dark);
     text-align: left;
-    line-height: 3.5rem;
+    line-height: 3.3rem;
     }
 
   #caption {
