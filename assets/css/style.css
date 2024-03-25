@@ -689,7 +689,7 @@ text-align: justify;
   #chaptertwo_paragraph {
 
     line-height: 1.3rem;
-    text-indent: 2rem;
+    text-indent: 1.5rem;
     font-size: calc(var(--font-size)* 1);
   }
 
