@@ -611,16 +611,17 @@ img {
   .landing_page {
 
     padding: 5%;
-    padding-top: 13%;
-    top: 20vh;
+    padding-top: 5%;
+
 
   }
 
   .font_landing {
-    font-size: calc((var(--font-size)* 2));
+    font-size: calc((var(--font-size)* 4));
     color: var(--color-dark);
-    text-align: center;
-  }
+    text-align: initial;
+    line-height: 4rem;
+    }
 
   #caption {
 
@@ -684,6 +685,12 @@ img {
 
     width: 70%;
 
+  }
+
+  .image_opening {
+
+    width: 80%;
+  
   }
 
   .caption {
