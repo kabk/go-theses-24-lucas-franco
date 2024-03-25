@@ -618,7 +618,7 @@ img {
 
   #chaptertwo_opening {
     padding: 5%;
-padding-top: 30%;
+padding-top: 25%;
 text-align: justify;
     }
 
@@ -811,6 +811,24 @@ text-align: justify;
 
     position: relative;
   }
+
+  .opening {
+
+
+
+    padding: 5%;
+    padding-top: 30%;
+
+
+    text-align: justify;
+  }
+
+  .manual_intro_paragraph {
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
   /* utility classes, mobile */
 
   .desktop-only {
@@ -823,23 +841,7 @@ text-align: justify;
 
 
 
-  .opening {
-
-
-
-    padding: 5%;
-    padding-top: 40%;
-
-
-    text-align: justify;
-  }
-
-  .manual_intro_paragraph {
-
-    margin-left: 5%;
-    margin-right: 5%;
-
-  }
+ 
 
 
   /* use this query to apply style changes to smaller smartphones sizes (like an iPhone 5S or SE 2016), max size of 339px */
