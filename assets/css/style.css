@@ -860,9 +860,10 @@ text-align: justify;
 
   .manual_intro_paragraph {
 
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 2%;
+    text-align: justify;
   }
   /* utility classes, mobile */
 
