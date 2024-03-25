@@ -693,6 +693,17 @@ text-align: justify;
     font-size: calc(var(--font-size)* 1);
   }
 
+  #caption_opening_black {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: calc(var(--font-size)*0.8);
+
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+
+    }
+
   #chaptertwo_paragraph_first {
 
     line-height: 1.3rem;
