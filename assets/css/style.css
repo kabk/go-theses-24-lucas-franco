@@ -784,6 +784,13 @@ img {
   
   }
 
+  #conclusion_opening {
+
+    position: relative;
+    height: auto;
+    z-index: 3;
+  }
+
   #thank {
     z-index: 3;
     height: auto;
