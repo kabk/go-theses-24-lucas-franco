@@ -669,6 +669,7 @@ img {
   #chaptertwo_paragraph {
 
     line-height: 1.3rem;
+    text-indent: 2rem;
     font-size: calc(var(--font-size)* 1);
   }
 
@@ -771,7 +772,7 @@ img {
   #text_conclusion {
 
     color: var(--color-light);
-    font-size: calc(var(--font-size)*0.7);
+    font-size: calc(var(--font-size)*1);
   
     text-align: justify;
   }
