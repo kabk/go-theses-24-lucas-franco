@@ -773,8 +773,19 @@ text-align: justify;
     padding-right: 5%;
   }
 
+  #david {
+
+    padding: 1% 10% 0% 10%;
+    position: sticky;
+  
+  
+  }
+
   #david_container {
-    width: 95%;
+    width: 80%;
+    margin: 0 auto;
+
+
     margin-top: 5%;
 
     display: block;
@@ -792,7 +803,7 @@ text-align: justify;
     margin-top: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    text-align: center;
+    text-align: justify;
   }
 
   #text_conclusion {
