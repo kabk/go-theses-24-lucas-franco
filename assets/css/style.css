@@ -612,8 +612,6 @@ img {
 
     padding: 5%;
     padding-top: 5%;
-
-
   }
 
   #chaptertwo_opening {
@@ -623,10 +621,10 @@ text-align: justify;
     }
 
   .font_landing {
-    font-size: calc((var(--font-size)* 3.5));
+    font-size: calc((var(--font-size)* 4));
     color: var(--color-dark);
-    text-align: left;
-    line-height: 3.3rem;
+    text-align: right;
+    line-height: 3.5rem;
     }
 
   #caption {
