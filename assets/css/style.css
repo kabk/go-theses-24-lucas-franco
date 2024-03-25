@@ -623,10 +623,10 @@ text-align: justify;
     }
 
   .font_landing {
-    font-size: calc((var(--font-size)* 4));
+    font-size: calc((var(--font-size)* 3.5));
     color: var(--color-dark);
     text-align: initial;
-    line-height: 4rem;
+    line-height: 3.5rem;
     }
 
   #caption {
