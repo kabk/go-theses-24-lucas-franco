@@ -776,6 +776,20 @@ img {
     text-align: justify;
   }
 
+  #inscribed {
+
+    position: relative;
+    height: auto;
+    z-index: 3;
+  
+  }
+
+  #thank {
+    z-index: 3;
+    height: auto;
+
+    position: relative;
+  }
   /* utility classes, mobile */
 
   .desktop-only {
