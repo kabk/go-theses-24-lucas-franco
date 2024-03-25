@@ -616,6 +616,12 @@ img {
 
   }
 
+  #chaptertwo_opening {
+    padding: 5%;
+padding-top: 30%;
+text-align: justify;
+    }
+
   .font_landing {
     font-size: calc((var(--font-size)* 4));
     color: var(--color-dark);
